@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:textSize="24sp"
+        android:text="Name:- "
+        />
+
+    <EditText
+        android:id="@+id/editText_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="100dp"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/name"
+        android:textSize="24sp"
+        android:text="Surame:- "
+        />
+
+    <EditText
+        android:id="@+id/editText_surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="130dp"
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/marks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/surname"
+        android:textSize="24sp"
+        android:text="Marks:- "
+        />
+
+    <EditText
+        android:id="@+id/editText_marks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/surname"
+        android:layout_marginLeft="120dp"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/editText_marks"
+        android:textSize="24sp"
+        android:text="ID :- "
+        />
+
+    <EditText
+        android:id="@+id/editText_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/editText_marks"
+        android:inputType="textPersonName"
+        android:textSize="24sp" />
+    <Button
+        android:id="@+id/addData_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_id"
+        android:text="ADD DATA"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="130dp"/>
+
+    <Button
+        android:id="@+id/viewAll_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_id"
+        android:text="VIEW ALL"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="230dp"/>
+
+    <Button
+        android:id="@+id/update_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addData_button"
+        android:text="Update data"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="160dp"/>
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_button"
+        android:text="Delete data"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="160dp"/>
+</RelativeLayout>
